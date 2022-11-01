@@ -3,6 +3,19 @@
   --color2: rgb(0, 0, 0);
 }
 
+.color-1 {
+  color: var(--color1);
+}
+.color-2 {
+  color: var(--color2);
+}
+.bg-1 {
+  background-color: var(--color1);
+}
+.bg-2 {
+  background-color: var(--color2);
+}
+
 header,
 section,
 footer {
@@ -20,7 +33,7 @@ footer {
   background-size: contain;
 }
 
-.itd_play {
+.my_play {
   background-color: var(--color1);
   width: 60px;
   height: 60px;
@@ -33,11 +46,11 @@ footer {
   transition: all 0.5s ease;
 }
 
-.itd_play:hover {
+.my_play:hover {
   background-color: var(--color2);
 }
 
-.itd_triangle {
+.my_triangle {
   margin-right: -3px;
   width: 0;
   height: 0;
@@ -46,7 +59,7 @@ footer {
   border-color: transparent transparent transparent var(--bs-white);
 }
 
-.itd-btn {
+.my-btn {
   display: block;
   max-width: 200px;
   margin: 0 auto;
@@ -54,7 +67,7 @@ footer {
   color: var(--bs-white);
   background-color: var(--color1);
 }
-.itd-btn:hover {
+.my-btn:hover {
   color: var(--bs-white);
   background-color: var(--color2);
 }
