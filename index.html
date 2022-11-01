@@ -18,7 +18,11 @@
             <h1 class="text-center text-white">
               Видео курс по верстке HTML & CSS
             </h1>
-            <div class="itd_play">
+            <div
+              class="itd_play"
+              data-bs-toggle="modal"
+              data-bs-target="#exampleModal"
+            >
               <div class="itd_triangle"></div>
             </div>
             <a href="#footer" class="btn itd-btn btn-lg text-uppercase"
@@ -30,6 +34,39 @@
     </header>
 
     <footer id="footer">footer</footer>
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="exampleModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">
+              Трейлер видео курса
+            </h1>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <div class="embed-container">
+              <iframe
+                src="https://www.youtube.com/embed//Y6bbMQXQ180"
+                frameborder="0"
+                allowfullscreen
+              ></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <script src="js/bootstrap.bundle.min.js"></script>
   </body>
